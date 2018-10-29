@@ -277,7 +277,7 @@ int main(void)
 			  musicOn = 2;
 		  }
 
-		  //M = Fin del juego, puntuaciÛn m·xima alcanzada por uno de los jugadores.
+		  //M = Fin del juego, puntuaci√≥n m√°xima alcanzada por uno de los jugadores.
 		  if(character == 'M')
 		  {
 			  flag_Ended = 1;
@@ -291,8 +291,8 @@ int main(void)
 		  }
 	  }
 
-	  // chequea quÈ jugador consiguiÛ mayor puntuaciÛn
-	  // y manda a posiciÛn inicial los motores.
+	  // chequea qu√© jugador consigui√≥ mayor puntuaci√≥n
+	  // y manda a posici√≥n inicial los motores.
 	  if (flag_Ended == 1)
 	  {
 		  if (max == pointPlayers[3])
@@ -499,7 +499,7 @@ static void MX_GPIO_Init(void)
 }
 
 /** @sendMotorsToStart
-  * @brief  Manda todos los motores a su posiciÛn inicial
+  * @brief  Manda todos los motores a su posici√≥n inicial
   * @param  none
   * @retval none
   */
