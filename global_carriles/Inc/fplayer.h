@@ -135,16 +135,16 @@ void buildCommand (uint8_t Word, uint16_t Param, uint8_t Buff[]);
  *****************************************************/
 
 //El dispositivo DFPlayer tiene varias formas de funcionamiento, puede
-//acceder a datos almacenados a un dispositivo USB o a una SD, y tambiÈn puede
-//reproducir una canciÛn en una carpeta especÌfica o seleccionar una canciÛn
-//directamente del directorio raÌz del USB o tarjeta uSD.
+//acceder a datos almacenados a un dispositivo USB o a una SD, y tambi√©n puede
+//reproducir una canci√≥n en una carpeta espec√≠fica o seleccionar una canci√≥n
+//directamente del directorio ra√≠z del USB o tarjeta uSD.
 //
-//En funciÛn de cÛmo se quiera emplear el dispositivo habr· que mandar unos comandos u otros.
-//Particularmente para nuestro proyecto, se utilizar· una uSD y ser· suficiente con
-//guardar las canciones en el directorio raÌz sin la necesidad de crear subcarpetas
+//En funci√≥n de c√≥mo se quiera emplear el dispositivo habr√° que mandar unos comandos u otros.
+//Particularmente para nuestro proyecto, se utilizar√° una uSD y ser√° suficiente con
+//guardar las canciones en el directorio ra√≠z sin la necesidad de crear subcarpetas
 //y acceder directamente a ellas. Por ello, muchos de los comando que hay arriba no
 //se van a utilizar, pero se dejan puestos por si en un futuro se quisiera utilizar
-//el DFPlayer para otra aplicaciÛn.
+//el DFPlayer para otra aplicaci√≥n.
 
  /* Commands Description Serial Commands
 [with checksum]						[without checksum] 			Notes
