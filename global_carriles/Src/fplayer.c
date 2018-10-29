@@ -10,9 +10,9 @@
 #include "fplayer.h"
 
 /** @putChr
-  * @brief  Pone un 1 byte en la posición Index del buffer
-  * @param  Word: Byte de información que se desea indexar en el buffer
-  * @param	Indx: índice del buffer, cada byte se guarda en un espacio
+  * @brief  Pone un 1 byte en la posiciÃ³n Index del buffer
+  * @param  Word: Byte de informaciÃ³n que se desea indexar en el buffer
+  * @param	Indx: Ã­ndice del buffer, cada byte se guarda en un espacio
   * 		del buffer distinto.
   * @param	Buff[]: Buffer.
   * @retval none
@@ -25,7 +25,7 @@ void putChr(uint8_t Word, uint8_t Indx, uint8_t Buff[])
 /** @buildCommand
   * @brief  Construye el dato que se va a enviar al FPlayer para que
   * 		este lo entienda correctamente
-  * @param  Word: Byte de información que se desea indexar en el buffer.
+  * @param  Word: Byte de informaciÃ³n que se desea indexar en el buffer.
   * @param	Buff[]: Buffer.
   * @retval none
   */
