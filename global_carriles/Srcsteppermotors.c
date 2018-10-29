@@ -14,8 +14,8 @@
 
  /** @putChr
    * @brief  Activa el movimiento del motor del jugador correspondiente
-   * 		un n鷐ero de pasos equivalente a los grados que se desee.
-   * @param  player: jugador actual, en funci髇 de este valor se mueve
+   * 		un n煤mero de pasos equivalente a los grados que se desee.
+   * @param  player: jugador actual, en funci贸n de este valor se mueve
    * 		uno de los cuatro motores.
    * @param	degrees: grados que se desea mover el motor.
    * @retval none
@@ -128,9 +128,9 @@ void moveMotorDegrees (uint8_t player, uint16_t degrees)
 
 
 /** @changeDir
-  * @brief  Cambia la direcci髇 del motor correspondiente al jugador
-  * 		un n鷐ero de pasos equivalente a los grados que se desee.
-  * @param  player: jugador actual, en funci髇 de este valor se act鷄
+  * @brief  Cambia la direcci贸n del motor correspondiente al jugador
+  * 		un n煤mero de pasos equivalente a los grados que se desee.
+  * @param  player: jugador actual, en funci贸n de este valor se act煤a
   * 		sobre uno de los motores..
   * @retval none
   */
@@ -155,10 +155,10 @@ void changeDir (uint8_t player)
 
 /** @putChr
   * @brief  Activa el movimiento del motor del jugador correspondiente
-  * 		un n鷐ero de pasos equivalente a los cent韒etros que se desee.
-  * @param  player: jugador actual, en funci髇 de este valor se mueve
+  * 		un n煤mero de pasos equivalente a los cent铆metros que se desee.
+  * @param  player: jugador actual, en funci贸n de este valor se mueve
   * 		uno de los cuatro motores.
-  * @param	centimeters: cent韒etros que se desea mover el motor.
+  * @param	centimeters: cent铆metros que se desea mover el motor.
   * @retval none
   */
 void moveMotorDistance (uint8_t player, double centimeters)
